@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const fetch = require('node-fetch');
 const app = express();
 const PORT = 3000;
-const GEMINI_API_KEY = 'AIzaSyCMcVzFh8nSimLG6ykI7vqusO4LwqN-0Kw';
+const GEMINI_API_KEY = 'Your-Gemini-API-Key';
 
 app.use(express.static(__dirname + '/..'));
 app.use(bodyParser.json());
