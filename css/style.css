@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(to bottom, #33ccff 0%, #0099cc 100%);
+}
+#game-container {
+  width: 100%;
+  height: 100vh;
+}
